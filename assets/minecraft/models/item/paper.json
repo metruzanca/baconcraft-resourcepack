@@ -1,0 +1,51 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/paper"
+    },
+    "overrides":
+    [
+      {
+        "predicate":
+        {
+          "custom_model_data":7200
+        },
+        "model": "baconcraft/amulets/amulet"
+      },
+      {
+        "predicate":
+        {
+          "custom_model_data":7201
+        },
+        "model": "baconcraft/amulets/amulet_emerald"
+      },
+      {
+        "predicate":
+        {
+          "custom_model_data":7201
+        },
+        "model": "baconcraft/amulets/amulet_diamond"
+      },
+      {
+        "predicate":
+        {
+          "custom_model_data":7400
+        },
+        "model": "baconcraft/rings/ring"
+      },
+      {
+        "predicate":
+        {
+          "custom_model_data":7401
+        },
+        "model": "baconcraft/rings/ring_emerald"
+      },
+      {
+        "predicate":
+        {
+          "custom_model_data":7402
+        },
+        "model": "baconcraft/rings/ring_diamond"
+      }
+    ]
+  }

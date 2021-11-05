@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/string"
+  },
+  "overrides":
+  [
+    {
+      "predicate":
+      {
+        "custom_model_data":10
+      },
+      "model": "baconcraft/consumables/whetstone"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":11
+      },
+      "model": "baconcraft/consumables/repairkit"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":1000
+      },
+      "model": "baconcraft/mobdetails/head_goblin1"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":1001
+      },
+      "model": "baconcraft/mobdetails/head_goblin2"
+    }
+  ]
+}

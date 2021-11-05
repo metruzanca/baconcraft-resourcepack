@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides":
+  [
+    {
+      "predicate":
+      {
+        "custom_model_data":100
+      },
+      "model": "baconcraft/materials/netherwood_stick"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":1000
+      },
+      "model": "baconcraft/spears/wooden_spear"
+    },
+        {
+      "predicate":
+      {
+        "custom_model_data":1001
+      },
+      "model": "baconcraft/spears/stone_spear"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },
+  "overrides":
+  [
+    {
+      "predicate":
+      {
+        "custom_model_data":9500
+      },
+      "model": "baconcraft/misc/gold_coin"
+    }
+  ]
+}
